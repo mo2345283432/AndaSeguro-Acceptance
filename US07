@@ -1,0 +1,7 @@
+Features: Seleccionar una ruta
+Como usuario peatón y/o conductor, quiero seleccionar una ruta que sea segura para poder guiarme de esa ruta
+
+Scenario: Seleccionar la ruta disponible hacia mi destino
+Given quiero buscar una ruta segura
+When haya terminado de colocar el destino final y presione el botón “Mostrar rutas”
+Then aparecerán una serie de rutas disponibles

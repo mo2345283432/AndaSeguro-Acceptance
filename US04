@@ -1,0 +1,7 @@
+Features: Utilizar GPS para poner mi ubicación
+Como usuario peatón y/o conductor, quiero poner mi ubicación con GPS en la app para que no tenga que posicionar mi ubicación manualmente.
+
+Scenario: Utilizar el GPS de mi dispositivo para autorizar a la app a usar mi ubicación
+Given quiero usar el GPS para colocar mi ubicación
+When presione el botón de “ok” en la interfaz de “¿Utilizar GPS en esta aplicación?”
+Then la aplicación tendrá mi ubicación actual por el GPS

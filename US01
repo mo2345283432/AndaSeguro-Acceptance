@@ -1,0 +1,7 @@
+Feature: Registrar en la app
+Como usuario peatón y/o conductor, quiero tener una cuenta registrada en la app para que la próxima vez que ingrese a la app tenga todos mis datos y rutas.
+
+Scenario: Primer registro en la app
+Given quiero registrarme con mi hotmail
+When presione el botón de registrarse
+Then aparecerá una interfaz solicitando mis datos.

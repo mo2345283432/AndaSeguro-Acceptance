@@ -1,0 +1,7 @@
+Features: Contactar con soporte
+Como usuario peatón y/o conductor, quiero contactar con el soporte de la app para que me puedan solventar las dudas que pueda tener.
+
+Scenario: En caso de complicaciones, permitir el contacto con personal de soporte
+Given quiero contactar con soporte
+When presione un botón de ayuda en configuraciones
+Then aparecerá una venta de chat para poder hablar con un técnico

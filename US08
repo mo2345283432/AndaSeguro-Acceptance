@@ -1,0 +1,7 @@
+Features: Visualizar la información de la ruta segura
+Como usuario peatón y/o conductor, quiero visualizar la información de mi ruta para conocer las características de la ruta por la que me movilizaré.
+
+Scenario: Permitir observar información sobre la ruta segura escogida
+Given quiero visualizar la información de mi ruta
+When mantenga presionado el nombre de la ruta
+Then aparecerá una interfaz con los detalles de mi ruta

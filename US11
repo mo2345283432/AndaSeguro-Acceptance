@@ -1,0 +1,7 @@
+Features: Guardar una ruta
+Como usuario peatón y/o conductor, quiero guardar una ruta para poder volver a seleccionar la misma ruta en otro momento.
+
+Scenario: Optar por guardar una ruta deseada por el usuario
+Given quiero guardar una ruta
+When presione un botón de “guardar ruta” en configuración
+Then se grabará para poder usarlo en próximos viajes

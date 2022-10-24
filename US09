@@ -1,0 +1,7 @@
+Features: Filtrar rutas por nivel de seguridad
+Como usuario peatón y/o conductor, quiero filtrar rutas por nivel de seguridad para poder tener libertad de escoger una ruta de acuerdo a mis preferencias.
+
+Scenario: De acuerdo a la seguridad encontrada, mostrar las rutas 
+Given quiero filtrar las rutas por nivel de seguridad
+When presione un icono de filtro, posicionado en la esquina superior, en la lista de rutas
+Then podré escoger entre distintas rutas dependiendo de su nivel de peligro

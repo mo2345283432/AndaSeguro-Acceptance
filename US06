@@ -1,0 +1,7 @@
+Features: Posibilidad de seleccionar cualquier ruta segura
+Como usuario peatón y/o conductor, quiero seleccionar la ruta por la que ir para que no solo tenga una opción de viaje.
+
+Scenario: Contar con posibilidades de seleccionar la ruta que desee y sea segura
+Given quiero escoger mi ruta de viaje
+When haya terminado de colocar el destino final y presione el botón “Mostrar rutas”
+Then aparecerá una lista con todas las rutas más seguras disponibles.

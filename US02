@@ -1,0 +1,7 @@
+Feature: Acceder con una cuenta a la app
+Como usuario peatón y/o conductor, quiero ingresar a la app con mi cuenta para acceder con mis datos y a mis rutas guardadas.
+
+Scenario: Acceder a la app a través de una cuenta creada
+Given quiero acceder a mi cuenta en la app
+When presiono el botón de Ingresar
+Then me solicitarán mi correo y mi contraseña

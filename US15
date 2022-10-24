@@ -1,0 +1,7 @@
+Features: Pagar cuenta Premium
+Como usuario peatón y/o conductor, quiero comprar una membresía premium para que pueda tener ciertas opciones disponibles.
+
+Scenario: Pagar una cuenta premium con mejores opciones
+Given quiero comprar una cuenta premium
+When presione el botón de “premium” en configuración
+Then aparecerá una interfaz para pagar y validar la compra

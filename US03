@@ -1,0 +1,7 @@
+Features: Usar en cualquier sistema operativo
+Como usuario peatón y/o conductor, quiero poder usar la app en cualquier sistema operativo para que no tenga que preocuparme por no poder descargarlo en mi dispositivo.
+
+Scenario: Hacer uso de la app en cualquier sistema operativo
+Given quiero usar la aplicación en mi celular Iphone
+When descargo la aplicación
+Then la aplicación se descargará porque tiene compatibilidad con mi sistema operativo

@@ -1,0 +1,7 @@
+Features: Cancelar viaje
+Como usuario peatón y/o conductor, quiero cancelar un viaje para no viajar porque cambié de decisión.
+
+Scenario: Tener la opción de cancelar el viaje en caso el usuario lo desee
+Given quiero cancelar mi viaje
+When presione el botón de “cancelar viaje” que está en el mapa
+Then se borrará la ruta que se estaba mostrando en el mapa

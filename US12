@@ -1,0 +1,7 @@
+Features: Acceder a la ruta guardada
+Como usuario peatón y/o conductor, quiero tener acceso a mi ruta guardada para poder utilizarla en cualquier momento.
+
+Scenario: Brindar la opción de acceder a las rutas guardadas por el usuario
+Given quiero acceder a una de mis rutas guardadas
+When presione en configuración el botón de “seguir una ruta guardada”
+Then se mostrará en el mapa la ruta previamente guardada

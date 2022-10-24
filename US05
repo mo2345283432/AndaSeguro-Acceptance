@@ -1,0 +1,7 @@
+Features: Seleccionar mi destino final con buscador
+Como usuario peatón y/o conductor, quiero escribir la dirección de mi destino final en un buscador para que no tenga que hacerlo manualmente.
+
+Scenario: Con ayuda del buscador, insertar el destino final del usuario
+Given quiero usar el GPS para colocar mi ubicación
+When presione el botón de “ok” en la interfaz de “¿Utilizar GPS en esta aplicación?”
+Then la aplicación tendrá mi ubicación actual por el GPS

@@ -1,0 +1,7 @@
+Features: Cambiar ruta seleccionada
+Como usuario peatón y/o conductor, quiero cambiar la ruta que seleccioné para movilizarme por otra ruta.
+
+Scenario: Tener la opción de cambiar la ruta escogida 
+Given quiero cambiar mi ruta
+When presione el botón de cambiar ruta, que aparece en el mapa
+Then me volverá a pedir que escriba una dirección destino final en el buscador
